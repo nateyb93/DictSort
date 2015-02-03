@@ -14,7 +14,7 @@ from collections import namedtuple;
 
 item = namedtuple('item', 'key value')
 
-def sortedList(dict):
+def sortByValue(dict):
     """Sorts a dictionary into a list of named tuples
        :param dict: dictionary to sort
        :returns: list of namedtuples"""
